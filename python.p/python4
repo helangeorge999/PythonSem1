@@ -1,0 +1,14 @@
+def word_count(sentence):
+    words = sentence.split()
+    word_count_dict = {}
+    for word in words:
+        word = word.lower()
+        word_count_dict[word] = word_count_dict.get(word, 0) +1
+    return word_count_dict
+
+#Example usage:
+sentence = "This is a simple sentence. Another sentence follows."
+sentence = "Hello my name is Helan George Adhikari. I' studying in Softwarica Collage which lies on dillibazar, Kathmandu. It is affiliated by Coventry University"
+result = word_count(sentence)
+
+print(result)    

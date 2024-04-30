@@ -1,0 +1,4 @@
+# while True:
+#     print("Helan")
+for a in range (10):
+    print("Helan George")

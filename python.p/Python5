@@ -1,0 +1,9 @@
+def count_words(text):
+    words =  text.split()
+    return len(words)
+
+
+# Example usage:
+input_text = "I found the summary of your project very interesting, and I would like to learn more and possibly talk to you about joining the lab. Is there a time in the coming weeks that we could meet? Thank you for your time and I look forward to hearing from you soon!"
+total_words = count_words(input_text)
+print(f'Total words: {total_words}')
